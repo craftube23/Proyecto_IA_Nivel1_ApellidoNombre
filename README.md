@@ -1,4 +1,5 @@
-# 🤖 **Proyecto_IA_Nivel1_NavasAlvearAndresFelipe**
+# 🤖 **Proyecto_IA_Nivel1_EstebanEstebanSahiamValentina**
+**Proyecto_IA_Nivel1_NavasAlvearAndresFelipe**
 
 AgendaBot es un bot conversacional automatizado diseñado para la gestión de **citas, tareas, recordatorios, hábitos y listas**, utilizando únicamente herramientas gratuitas y accesibles.
 Este documento describe su funcionamiento, estructura, flujos y reglas internas.
@@ -11,7 +12,6 @@ AgendaBot funciona a través de Telegram y permite al usuario interactuar median
 El bot guía al usuario paso a paso, explicando cada acción y solicitando confirmación antes de realizar cambios importantes.
 
 El sistema fue diseñado para ser:
-
 - Fácil de usar
 - Predecible
 - Controlado por el usuario
@@ -22,18 +22,15 @@ El sistema fue diseñado para ser:
 ## 2. Arquitectura del Sistema
 
 ### 2.1 Telegram
-
 - Interfaz conversacional
 - Envío y recepción de mensajes
 
 ### 2.2 n8n & NGROK
-
 - Automatización de flujos
 - Validaciones
 - Control de sesiones
 
 ### 2.3 Google Sheets
-
 - Almacenamiento de datos
 - Logs y auditoría
 

@@ -1,5 +1,5 @@
 {
-  "name": "AgendaBot",
+  "name": "My workflow 2",
   "nodes": [
     {
       "parameters": {
@@ -70,7 +70,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "Perfecto, vamos con tu agenda.\n  ¿Qué deseas hacer? \n\n1. Agendar una nueva cita \n2. Consultar tu agenda \n3. Reprogramar una cita \n4. Cancelar una cita \n5. Marcar una cita como completada \n0. Volver al menú principal",
+        "text": "Perfecto 😊 vamos a organizar tu agenda 📅\n\n¿Qué te gustaría hacer ahora?\n\n1️⃣ Agendar una nueva cita\n2️⃣ Ver tus citas programadas\n3️⃣ Reprogramar una cita\n4️⃣ Cancelar una cita\n5️⃣ Marcar una cita como completada\n\n9️⃣ Volver al menú principal\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -365,7 +365,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "Menú Recordatorios: \n\n1. Crear recordatorio \n2. Ver recordatorios activos \n3. Editar recordatorio \n4. Eliminar recordatorio \n9. Volver al menú principal",
+        "text": "⏰ Menú Recordatorios\n\nUsa este menú para no olvidar nada importante 🔔\nSelecciona una opción:\n\n1️⃣ Crear un recordatorio\n2️⃣ Ver recordatorios activos\n3️⃣ Editar un recordatorio\n4️⃣ Eliminar un recordatorio\n\n9️⃣ Volver al menú principal\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -2050,7 +2050,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "Menú Tareas:\n\n1. Crear nueva tarea\n2. Ver mis tareas\n3. Cambiar estado de una tarea\n4. Editar tarea\n5. Eliminar tarea\n9. Volver al menú principal\n",
+        "text": "📝 Menú Tareas\n\nAquí puedes gestionar todo lo relacionado con tus tareas diarias 😊\nElige una opción escribiendo el número correspondiente:\n\n1️⃣ Crear una nueva tarea\n2️⃣ Ver mis tareas\n3️⃣ Cambiar el estado de una tarea\n4️⃣ Editar una tarea\n5️⃣ Eliminar una tarea\n\n9️⃣ Volver al menú principal\n\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -2308,7 +2308,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "Perfecto, Dime en que te puedo ayudar.\n\nEscribe solo el numero correspondiente\n\nMenú Ayuda:\n1. Cómo funciona AgendaBot\n2. Ejemplos rápidos\n3. Reglas y limitaciones\n9. Volver al menú principal",
+        "text": "🆘 Menú de ayuda\n\nEstoy aquí para orientarte y que aproveches al máximo AgendaBot 🤖✨\nElige una opción escribiendo solo el número:\n\n1️⃣ Cómo funciona AgendaBot\n2️⃣ Ejemplos rápidos de uso\n3️⃣ Reglas y limitaciones\n\n9️⃣ Volver al menú principal\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -2479,7 +2479,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "Te doy una explicacion muy  clara y consisa de como funciona AgendaBot\n\nTodo se maneja por números  El bot guía paso a paso  \n\nSiempre puedes volver al menú principal con 9",
+        "text": "ℹ️ ¿Cómo funciona AgendaBot?\n\nAgendaBot funciona de manera muy sencilla 😊\n\n• Todo se maneja usando números.\n• El bot te va guiando paso a paso en cada proceso.\n• No necesitas escribir frases largas, solo elige la opción que quieras.\n• En cualquier momento puedes regresar al menú principal escribiendo 9️⃣.\n\nAsí tendrás todo más claro, rápido y ordenado 📅✨\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -2503,7 +2503,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "Te voy a dejar algunos ejemplos:\n\n“Para agendar una cita: escribe 1 → 1”\n\n“Para ver tareas: escribe 2 → 2”\n\n9. Para volver a menu principal",
+        "text": "📌 Ejemplos rápidos de uso\n\nAquí tienes algunos ejemplos para que sepas cómo moverte dentro de AgendaBot 😊\n\n• Para agendar una cita: escribe 1 → 1\n• Para ver tus tareas: escribe 2 → 2\n\nRecuerda: solo debes escribir números y seguir las instrucciones del bot 🤖\n\n9️⃣ Volver al menú principal\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -2527,7 +2527,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "Te dejamos nuestras reglas para que las tengas en cuenta\n\nNo se agenda en el pasado\n\nNo se duplican citas\n\nAlgunas funciones dependen de permisos\n\n9. Para volver a menu principal",
+        "text": "📋 Reglas y limitaciones\n\nTen en cuenta estas reglas para que todo funcione correctamente 👇\n\n• No se pueden agendar citas en fechas pasadas.\n• No se permiten citas duplicadas.\n• Algunas funciones pueden depender de los permisos del usuario.\n\n9️⃣ Volver al menú principal\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -5998,7 +5998,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "Menú Listas:\n\n1. Crear nueva lista\n2. Ver mis listas\n3. Ver items de una lista\n4. Agregar item\n5. Marcar item como completado\n6. Eliminar item\n9. Volver al menú principal\n",
+        "text": "📋 Menú Listas\n\nOrganiza tus pendientes y listas de forma sencilla 🧠✨\n¿Qué deseas hacer?\n\n1️⃣ Crear una nueva lista\n2️⃣ Ver mis listas\n3️⃣ Ver los ítems de una lista\n4️⃣ Agregar un ítem a una lista\n5️⃣ Marcar un ítem como completado\n6️⃣ Eliminar un ítem\n\n9️⃣ Volver al menú principal\n\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -6256,7 +6256,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "Menú Reportes:\n\n1. Resumen de hoy\n2. Tareas pendientes\n3. Hábitos activos\n9. Volver al menú principal\n",
+        "text": "📊 Menú Reportes\n\nConsulta resúmenes rápidos sobre tu actividad 📈\nElige una opción:\n\n1️⃣ Resumen de hoy\n2️⃣ Tareas pendientes\n3️⃣ Hábitos activos\n\n9️⃣ Volver al menú principal\n\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -6514,7 +6514,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "Menú Configuración:\n\n1. Cambiar nombre\n9. Volver al menú principal\n",
+        "text": "⚙️ Menú Configuración\n\nPersonaliza tu experiencia con AgendaBot 😊\nSelecciona lo que deseas hacer:\n\n1️⃣ Cambiar nombre\n\n9️⃣ Volver al menú principal\n\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -6772,7 +6772,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "Menú Administrador:\n\n1. Ver usuarios\n9. Volver al menú principal",
+        "text": "🛡️ Menú Administrador\n\nOpciones exclusivas para administración del sistema 👤\nElige una opción:\n\n1️⃣ Ver usuarios\n\n9️⃣ Volver al menú principal\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -12227,7 +12227,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "=Empecemos a crear tu cita.\n\nPaso 1 de 6\n¿Cuál es la fecha de la cita?\n\nFormato: YYYY-MM-DD\nEjemplo: 2026-02-20\n\n9. Cancelar",
+        "text": "=📝 Empecemos a crear tu cita 😊\n\n**Paso 1 de 6**\n📅 ¿Cuál es la fecha de la cita?\n\nFormato: YYYY-MM-DD\nEjemplo: 2026-02-20\n\n9️⃣ Cancelar y volver al menú principal\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -12473,7 +12473,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "=Paso 2 de 6\n¿A qué hora será la cita?\n\nFormato 24 horas (HH:MM)\nEjemplo: 14:30\n\n9. Cancelar",
+        "text": "⏰ **Paso 2 de 6**\n¿A qué hora será la cita?\n\nFormato 24 horas: HH:MM\nEjemplo 14:30\n\n9️⃣ Cancelar y volver al menú principal\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -12609,7 +12609,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "=Paso 3 de 6\n¿A nombre de quién es la cita?\n\nEscribe el nombre completo.\n\n9. Cancelar",
+        "text": "🧾 Paso 3 de 6\n¿A nombre de quién es la cita?\n\nEscribe el nombre completo, por favor 😊\n\n9️⃣ Cancelar y volver al menú principal\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -12744,7 +12744,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "=Paso 4 de 6\nCuéntame brevemente el motivo de la cita.\n\nEjemplo: Asesoría técnica\n\n9. Cancelar",
+        "text": "🗒️ Paso 4 de 6\nCuéntame brevemente el motivo de la cita.\n\nEjemplo: Asesoría técnica\n\n9️⃣ Cancelar y volver al menú principal\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -12879,7 +12879,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "=Paso 5 de 6\n¿Cómo será la atención?\n\n Presencial\n Virtual\n Llamada\n Cancelar",
+        "text": "📌 Paso 5 de 6\n¿Cómo será la atención?\n\n Presencial\n Virtual\n Llamada\n\n9️⃣ Cancelar y volver al menú principal\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -13014,7 +13014,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "=Revisa la información de tu cita:\n\n\"fecha\": \"{{ JSON.parse($json.datos_parciales).fecha }}\"\n\"hora\": \"{{ JSON.parse($json.datos_parciales).hora }}\",\n\"nombre\": \"{{ JSON.parse($json.datos_parciales).nombre }}\",\n\"motivo\": \"{{ JSON.parse($json.datos_parciales).motivo }}\"\n\"canal\": \"{{ $('Telegram Trigger').item.json.message.text }}\"\n\n¿Qué deseas hacer?\n1. Confirmar y guardar\n2. Editar información\n3. Cancelar",
+        "text": "=🔍 Revisa la información de tu cita:\n\nfecha: {{ JSON.parse($json.datos_parciales).fecha }}\nhora: {{ JSON.parse($json.datos_parciales).hora }}\nnombre: {{ JSON.parse($json.datos_parciales).nombre }}\nmotivo: {{ JSON.parse($json.datos_parciales).motivo }}\ncanal: {{ $('Telegram Trigger').item.json.message.text }}\n\n¿Qué deseas hacer ahora?\n\n1️⃣ Confirmar y guardar la cita\n2️⃣ Editar la información\n3️⃣ Cancelar esta cita\n\n9️⃣ Volver al menú principal\n\n\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -13234,7 +13234,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "=¡Listo! Tu cita quedó agendada correctamente. \n\nID de la cita: {{ $json.id_cita }}  \n\n¿Qué deseas hacer ahora? \n1. Volver a Agenda \n2. Ir al menú principal",
+        "text": "=✅ ¡Todo listo! Tu cita fue agendada con éxito 🎉\n\nID de la cita:\n{{ $json.id_cita }}  \n\n¿Qué te gustaría hacer ahora?\n\n1️⃣ Volver a Agenda\n\n9️⃣ Volver al menú principal\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -15839,7 +15839,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "✏️ Escribe el título de la tarea",
+        "text": "✏️ Escribe el título de la tarea\n\nIngresa un nombre corto y claro para identificarla fácilmente 😊\n\n9️⃣ Volver al menú principal\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -16833,7 +16833,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "🔄 Escribe el ID de la tarea\n",
+        "text": "🔄 Escribe el ID de la tarea\n\nPor favor, ingresa el identificador de la tarea que deseas modificar.\n\n9️⃣ Volver al menú principal\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -19555,7 +19555,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.from.id }}",
-        "text": "=Fecha erronea, por favor escribe bien la fecha\n\nFormato: YYYY-MM-DD\nEjemplo: 2026-02-20\n\n9. Cancelar\n",
+        "text": "⚠️ La fecha ingresada no es válida\n\nPor favor, escríbela nuevamente usando el formato correcto 👇\n\nFormato: YYYY-MM-DD\nEjemplo: 2026-02-20\n\n9️⃣ Cancelar y volver al menú principal\n\n",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -22531,7 +22531,7 @@
     "executionOrder": "v1",
     "availableInMCP": false
   },
-  "versionId": "0ece2453-df7f-4dff-abdf-54ffa23eb02d",
+  "versionId": "72b1a969-3be8-4761-8b8c-952efd14c679",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "02187e166e5f23bce2df29504b30b1e9dfa01c5de04a8a2b48ce6ce74cc4ffc7"
