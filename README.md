@@ -1,5 +1,4 @@
-# 🤖 **Proyecto_IA_Nivel1_EstebanEstebanSahiamValentina**
-**Proyecto_IA_Nivel1_NavasAlvearAndresFelipe**
+# **Proyecto_IA_Nivel1_EstebanSahiam_NavasAndres**
 
 AgendaBot es un bot conversacional automatizado diseñado para la gestión de **citas, tareas, recordatorios, hábitos y listas**, utilizando únicamente herramientas gratuitas y accesibles.
 Este documento describe su funcionamiento, estructura, flujos y reglas internas.
