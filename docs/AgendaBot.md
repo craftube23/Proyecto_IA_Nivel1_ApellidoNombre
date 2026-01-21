@@ -232,8 +232,6 @@ Tipos comunes:
 
 ```
 1. Cambiar nombre
-2. Zona horaria
-3. Activar / desactivar recordatorios
 9. Volver al menú principal
 ```
 
@@ -250,9 +248,6 @@ Google Sheets → Hoja **USUARIOS**
 
 ```
 1. Ver usuarios
-2. Autorizar / bloquear usuario
-3. Ver logs
-4. Exportar datos
 9. Volver al menú principal
 ```
 
@@ -273,6 +268,7 @@ El documento **AgendaBot_DB** contiene las siguientes hojas:
 * USUARIOS
 * LOGS
 * SESSIONS
+* RECORDATORIOS
 
 Incluye control de sesión, navegación, logs y datos parciales.
 

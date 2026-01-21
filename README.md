@@ -56,16 +56,6 @@ El sistema fue diseñado para ser:
 7. Configuración  
 8. Administrador  
 
----
-
-## 5. Flujo: Agendar Nueva Cita
-
-1. Fecha  
-2. Hora  
-3. Nombre  
-4. Motivo  
-5. Canal  
-6. Confirmación  
 
 ---
 
